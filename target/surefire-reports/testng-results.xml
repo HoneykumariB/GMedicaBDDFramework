@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="27752" started-at="2022-04-24T11:55:00 CEST" finished-at="2022-04-24T11:55:28 CEST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:MyRunner.TestRunner@33f88ab]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test Demo" duration-ms="27752" started-at="2022-04-24T11:55:00 CEST" finished-at="2022-04-24T11:55:28 CEST">
+      <class name="MyRunner.TestRunner">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:MyRunner.TestRunner@33f88ab]" name="setUpClass" is-config="true" duration-ms="459" started-at="2022-04-24T11:55:00 CEST" finished-at="2022-04-24T11:55:01 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6ed043d3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:MyRunner.TestRunner@33f88ab]" name="runScenario" duration-ms="7105" started-at="2022-04-24T11:55:01 CEST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-24T11:55:08 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify VangoghMuseum collection page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test Automation Assignment on vangoghmuseum"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:MyRunner.TestRunner@33f88ab]" name="runScenario" duration-ms="5403" started-at="2022-04-24T11:55:08 CEST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-24T11:55:13 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["VangoghMuseum collectie searched title verification"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test Automation Assignment on vangoghmuseum"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:MyRunner.TestRunner@33f88ab]" name="runScenario" duration-ms="14658" started-at="2022-04-24T11:55:13 CEST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-24T11:55:28 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["VangoghMuseum search result verification"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test Automation Assignment on vangoghmuseum"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:MyRunner.TestRunner@33f88ab]" name="tearDownClass" is-config="true" duration-ms="100" started-at="2022-04-24T11:55:28 CEST" finished-at="2022-04-24T11:55:28 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- MyRunner.TestRunner -->
+    </test> <!-- Test Demo -->
+  </suite> <!-- Suite1 -->
+</testng-results>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="25.852">
+<testcase classname="Test Automation Assignment on vangoghmuseum" name="Verify VangoghMuseum collection page" time="6.646">
+<system-out><![CDATA[Given Navigated to vangoghmuseum HomePage...................................passed
+When User swipe right to "Ontdek de collectie"..............................passed
+And clicked Ontdek de collectie link........................................passed
+Then User validated the page heading as "Collectie".........................passed
+And User validated URL contains "collectie".................................passed
+And User validated the page title "Collectie - Van Gogh Museum".............passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Automation Assignment on vangoghmuseum" name="VangoghMuseum collectie searched title verification" time="5.053">
+<system-out><![CDATA[Given Navigated to vangoghmuseum collectie page.............................passed
+When User searched painting with "Het Gele Huis" title......................passed
+Then Search result are greater than 700.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Automation Assignment on vangoghmuseum" name="VangoghMuseum search result verification" time="13.964">
+<system-out><![CDATA[Given Navigated to vangoghmuseum collectie page.............................passed
+When User searched painting with "Het Gele Huis" title......................passed
+And User selected first paiting.............................................passed
+Then User verified the painting page........................................passed
+And validated F Number "F0464" value........................................passed
+And validated JH Number "JH1589" value......................................passed
+And validated Inventoris "s0032V1962" value.................................passed
+]]></system-out>
+</testcase>
+</testsuite>
