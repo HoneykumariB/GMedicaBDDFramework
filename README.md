@@ -1,6 +1,7 @@
 # GeriMedicaBDDFramework 
 
-This Repo provides the solution of Abn Amro assignment on Reference app
+This Repo provides the solution for assignment on 'vangoghmuseum'
+* web Automation assignment performed using selenium Java with cucumber
 
 **Pre-requisites:**
 In order to complete this assignment , I used
@@ -18,7 +19,7 @@ In order to complete this assignment , I used
 * Cucumber
 * Maven
 * TestNG
-* Selenium
+* Selenium WebDriver
 * Extent Report
 * Github CI
 
