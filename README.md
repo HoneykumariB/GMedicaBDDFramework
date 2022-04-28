@@ -32,7 +32,7 @@ Feature file comprises below scenario's
 * Scenario Outline: VangoghMuseum search result verification
 
 
-**Framework Structure :**
+**Framework Structure **
 --
 <img width="320" alt="image" src="https://user-images.githubusercontent.com/82476790/165727580-3d8fe39e-380c-4615-a925-8a49eef8876e.png">
 
@@ -49,7 +49,9 @@ Feature file comprises below scenario's
 * StepDefination package : stepDef clas
 * resource: comprises property file 
 
-**Executing cucumber BDD selenium test ** 
+**Executing cucumber BDD selenium test **
+--
+
 maven & java should be setup in system to run from cmd/terminal (console) 
 
 **ZIP file:** extract the project & navigate to project path and type below command in terminal/cmd
@@ -69,7 +71,10 @@ or
 
 `mvn test`
  
-**Note:**  After test execution extent report is created and launched automatically in default brower with test results & cucumber report link is generated in terminal logs & also inside target->cucumber-html-reporter folder .
+**Note:** 
+--
+
+After test execution extent report is created and launched automatically in default brower with test results & cucumber report link is generated in terminal logs & also inside target->cucumber-html-reporter folder .
 Passed & failed screenshot get captured and attaced in extent report and screenshot folder.
 
 These selenium BDD cucumber test can be executed on any CI such as Jenkins, GitHUB/GitLAB, azure CI etc
